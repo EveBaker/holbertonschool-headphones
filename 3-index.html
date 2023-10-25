@@ -24,13 +24,12 @@
             </nav>
         </header>
 
-                    <!--Hero section-->
-                        <section class="Hero-section">
-                            <div class="background"></div>
-                            <h1 class="h-title">Lorem ipsum dolor sit amet consectetur</h1>
-                            <h2 class="h-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
-                            <a href="" class="button">Call to action</a>
-                            
+        <!--Hero section-->
+        <section class="Hero-section">
+                <div class="background"></div>
+                <h1 class="h-title">Lorem ipsum dolor sit amet consectetur</h1>
+                <h2 class="h-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+                <a href="" class="button">Call to action</a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore
                     magna aliqua.
@@ -38,7 +37,7 @@
                     consequat.
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
-                        </section>
+                </section>
 
             <!--What we do section-->
             <section class="what-we-do">
@@ -96,6 +95,33 @@
                     <p class="subtitle">Lorem ipsum dolor</p>
                 </div>
             </div>
+        </section>
+
+        <!--Contact section-->
+        <section class="contact">
+            <h3 class="title">Contact us</h3>
+            <form action="#" method="POST">
+                <div class="group">
+                    <div class="field">
+                        <input type="text" name="name" id="name" placeholder="Name" pattern="[A-Za-zÀ-ž\s]{3,}" maxlength="35" autocomplete="on" required>
+                </div>
+            </div>
+            <div class="group">
+                <div class="field">
+                    <span class="field-container">
+                        <input type="email" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="55" autocomplete="on" required>
+                    </span>
+                </div>
+            </div>
+            <div class="group">
+                <div class="field">
+                    <input type="text" name="comment" id="comment" placeholder="Your message" pattern="[A-Za-zÀ-ž\s]{4,}" maxlength="75" autocomplete="on" required>
+                </div>
+            </div>
+            <div class="group">
+                <a href="" class="button">Call to action</a>
+            </div>
+            </form>
         </section>
     </body>
     </html>
