@@ -832,7 +832,7 @@ header nav li a:hover {
 
 .Hero-section .background {
     position: absolute;
-    background-image: url(./images/headphones_hero_1.jpg);
+    background-image: /images/headphones_hero_1.jpg;
     background-position: center;
     top: 0;
     left: 0;
@@ -923,8 +923,7 @@ header nav li a:hover {
     height: 100%;
     background-size: cover;
     background-color: var(--color-black);
-    z-index: -1;
-    background-image: url(/images/headphones_hero_2.jpg);
+    background-image: url("images/headphones_hero_2.png");
 }
 
 .results .columns {
@@ -932,7 +931,7 @@ header nav li a:hover {
 }
 
 .results .columns .poly {
-    background-image: url(images/pentagone.png);
+    background-image: url("images/pentagone.png");
     background-size: 100%;
     background-repeat: no-repeat;
     width: 190px;
@@ -944,7 +943,7 @@ header nav li a:hover {
     margin: 50px;
 }
 
-.results .columns .poly .percent {
+.results .columns .poly .number {
     margin: 40px 10px 5px 5px;
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-xxx-large);
@@ -962,13 +961,13 @@ header nav li a:hover {
         padding: 0;
         ;
     }
-    .what-we-do .columns .poly {
+    .description .columns .poly {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 575px) {
-    .what-we-do .columns {
+    .description .columns {
         flex-direction: column;
         padding: 0;
     }
