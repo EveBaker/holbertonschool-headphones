@@ -849,7 +849,7 @@ header nav li a:hover {
 }
 
 
-/* description section */
+/* what we do section */
 
 .what-we-do {
     background: var(--color-white);
@@ -913,7 +913,9 @@ header nav li a:hover {
     padding-right: 60px;
 }
 
+
 /* results sections */
+
 .results {
     background-position: center;
     top: 0;
@@ -922,7 +924,8 @@ header nav li a:hover {
     height: 100%;
     background-size: cover;
     background-color: var(--color-black);
-    background-image: url(./images/headphones_hero_2.png);
+    z-index: -1;
+    background-image: url(./images/headphones_hero_2.jpg);
 }
 
 .results .columns {
@@ -960,19 +963,19 @@ header nav li a:hover {
         padding: 0;
         ;
     }
-    .results .columns .poly {
+    .what-we-do .columns .poly {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 575px) {
-    .results .columns {
+    .what-we-do .columns {
         flex-direction: column;
         padding: 0;
     }
 }
 
-/*-----Contacts section----*/
+/* contac section */
 
 .contact {
     background: var(--color-white);
@@ -1003,7 +1006,7 @@ input[type=email]:focus {
     color: var(--color-secondary);
 }
 
-.group {
+.form-group {
     padding: 1rem;
     margin: 0;
     margin-bottom: 5rem;
