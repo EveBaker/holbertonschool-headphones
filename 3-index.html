@@ -11,7 +11,7 @@
     <link rel='stylesheet' href='3-styles.css'>
 <link rel="stylesheet" href="./holberton_school-icon/style.css">
 </head>
-<body>
+<>
         <!--Header Section-->
         <header>
             <h2 a href=""><img src="./images/logo_headphones.png" alt="Headphones logo" width="160px"></h2>
@@ -97,8 +97,33 @@
             </div>
         </div>
     </section>
-</body>
-</html>
-    </body>
+
+    <!--Contact section-->
+    <section class="Contact">
+        <h3 class="title">Contact us</h3>
+        <form action="#" method="POST">
+            <div class="group">
+                <div class="field">
+                    <input type="text" name="name" id="name" placeholder="Name" pattern="[A-Za-zÀ-ž\s]{3,}" maxlength="35" autocomplete="on" required>
+                </div>
+            </div> 
+            <div class="group">
+                <div class="field">
+                    <span class="field-container">
+                        <input type="email" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="55" autocomplete="on" required>
+                    </span>
+                </span>
+                </div>
+            </div>
+            <div class="group">
+                <div class="field">
+                    <input type="text" name="comment" id="comment" placeholder="Your message" pattern="[A-Za-zÀ-ž\s]{4,}" maxlength="75" autocomplete="on" required>
+                </div>
+            </div>
+            <div class="group">
+                <a href="" class="button">Call to action</a>
+            </div>
+        </form>
+    </section>
 </html>
 </main>
