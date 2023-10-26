@@ -976,3 +976,38 @@ header nav li a:hover {
 }
 
 /* contact section */
+.Contact {
+    background: var(--color-white);
+    color: var(--color-secondary)
+}
+
+input[type=text],
+input[type=email] {
+    position: relative;
+    width: 100%;
+    padding: 1.2rem;
+    line-height: 1;
+    border: none;
+    border-bottom: .1rem solid var(--color-black);
+    background-color: var(--color-white);
+    box-shadow: none;
+    outline: 0;
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+    border-bottom: .1rem solid var(--color-primary);
+}
+
+::placeholder {
+    font-style: var(--font-weight-bold);
+    font-size: var(--font-size-medium);
+    color: var(--color-secondary);
+}
+
+.form-group {
+    padding: 1rem;
+    margin: 0;
+    margin-bottom: 5rem;
+    background-color: var(--color-white);
+}
